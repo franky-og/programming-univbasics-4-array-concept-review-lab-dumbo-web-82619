@@ -15,7 +15,8 @@ end
 def find_max_value(array)
   # Add your solution here
   maxvalue = array[0]
-  array.each
+  array.each do |n|
+    
 end
 
 def find_min_value(array)
