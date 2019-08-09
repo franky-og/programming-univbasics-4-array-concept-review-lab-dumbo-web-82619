@@ -8,9 +8,9 @@ def find_element_index(array, value_to_find)
   if i >= array.length
     return nil
   else
-  return i
+    return i
+  end
 end
- end
 
 def find_max_value(array)
   # Add your solution here
