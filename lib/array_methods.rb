@@ -25,4 +25,11 @@ end
 
 def find_min_value(array)
   # Add your solution here
+  minvalue = array[0]
+  array.each do |n|
+    if n < minvalue
+      minvalue = n
+    end
+  end
+  return minvalue
 end
