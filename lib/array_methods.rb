@@ -16,7 +16,11 @@ def find_max_value(array)
   # Add your solution here
   maxvalue = array[0]
   array.each do |n|
-    
+    if n > maxvalue
+      maxvalue = n
+    end
+  end
+  return maxvalue
 end
 
 def find_min_value(array)
